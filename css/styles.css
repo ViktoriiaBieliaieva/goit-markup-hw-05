@@ -623,8 +623,8 @@ input::placeholder {
     border-color: #4d5ae5;
 }
 
-.input-form:focus-within .modal-textarea {
-    border-color: #4d5ae5;
+.modal-input:focus-within .icon-modal {
+    fill: #4d5ae5;
 }
 
 .input-form {
@@ -632,7 +632,6 @@ input::placeholder {
 }
 
 .icon-modal {
-    fill: #4D5AE5;
     position: absolute;
     left: 16px;
     top: 50%;
