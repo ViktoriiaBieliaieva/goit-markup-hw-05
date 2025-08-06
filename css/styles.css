@@ -459,24 +459,18 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-color: #31D0AA;
 }
 
-.footer-mail {
-    display: flex;
-    gap: 24px;
-    align-items: flex-end;
-}
-
-.form label {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.label {
+.footer-mail-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.form {
+    display: flex;
+    gap: 24px;
 }
 
 .email-input {
@@ -484,34 +478,35 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: transparent;
-    padding: 8px 16px;
-}
-
-input::placeholder {
-    font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    color: #FFFFFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-left: 16px;
+}
+
+input::placeholder {
     color: #FFFFFF;
 }
 
 .footer-button {
     border-radius: 4px;
-    padding: 8px 24px;
+    border: none;
     width: 165px;
     height: 40px;
     background: #4D5AE5;
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
     display: flex;
-    gap: 16px;
     align-items: center;
+    justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -521,6 +516,7 @@ input::placeholder {
 }
 
 .icon-send {
+    margin-left: 16px;
 fill: #ffffff;
 }
 
