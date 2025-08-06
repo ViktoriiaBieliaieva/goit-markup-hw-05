@@ -620,10 +620,10 @@ input::placeholder {
 }
 
 .modal-input:focus-within {
-    border-color: #4d5ae5;
+    border-color: #4D5AE5;
 }
 
-.modal-input:focus-within .icon-modal {
+.modal-input:focus-within + .icon-modal {
     fill: #4d5ae5;
 }
 
@@ -639,24 +639,28 @@ input::placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.textarea-wrap {
+    margin-bottom: 16px;
+}
+
 .modal-textarea {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 360px;
+    background-color: transparent;
     height: 120px;
     padding: 8px 16px;
-    margin-bottom: 16px;
     resize: none;
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-textarea::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+.modal-textarea:focus-within {
+border-color: #4D5AE5;
 }
 
 .checkbox {
