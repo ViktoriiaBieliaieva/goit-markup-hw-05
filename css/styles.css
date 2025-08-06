@@ -497,7 +497,7 @@ input::placeholder {
     border: none;
     width: 165px;
     height: 40px;
-    background: hsl(235, 75%, 60%);
+   background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
