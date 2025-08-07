@@ -687,7 +687,7 @@ border-color: #4D5AE5;
     margin-right: 8px;
 }
 
-.checkbox-input:checked .checkbox-span {
+.checkbox-input:checked+label>span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
