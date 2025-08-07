@@ -491,11 +491,20 @@
             ></textarea>
           </div>
           <div class="checkbox">
-            <div class="square"></div>
-            <p class="checkbox-text">
-              I accept the terms and conditions of the
-              <a class="checkbox-link" href="#">Privacy Policy</a>
-            </p>
+            <input
+              class="checkbox-input visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="checkbox-label" for="user-privacy"
+              ><span class="checkbox-span"
+                ><svg class="icon-checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check" /></svg></span
+              >I accept the terms and conditions of the
+              <a class="checkbox-link" href="#">Privacy Policy</a></label
+            >
           </div>
           <button class="send-button" type="submit">Send</button>
         </form>
